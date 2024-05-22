@@ -9,6 +9,9 @@ body {
     transition: background-image 0.5s ease-in-out;
     flex-direction: column;
     overflow: hidden; /* Para garantir que as partículas fiquem dentro da viewport */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
 
 .message {
@@ -16,7 +19,7 @@ body {
     width: 100%;
     padding: 20px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(2, 2, 221);
     color: white;
     font-weight: bold;
     position: fixed;
