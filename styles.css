@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-image: url('https://github.com/Fael1921/PRESENTE-MIGUEL/blob/main/WhatsApp%20Image%202024-05-22%20at%2008.39.27.jpeg?raw=true');
     transition: background-image 0.5s ease-in-out;
     flex-direction: column;
     overflow: hidden; /* Para garantir que as partículas fiquem dentro da viewport */
@@ -17,9 +17,9 @@ body {
 .message {
     display: none;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    background-color: rgb(2, 2, 221);
+    background-color: rgb(4, 4, 201);
     color: white;
     font-weight: bold;
     position: fixed;
